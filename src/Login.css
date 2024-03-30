@@ -1,0 +1,88 @@
+/* Login.css */
+
+/* Container styles */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header styles */
+.login-text {
+  font-size: 36px;
+  color: #ff4136; /* Red color */
+  margin-bottom: 20px;
+  text-align: center; /* Center align the text */
+}
+
+/* Form container styles */
+.form-container {
+  width: 300px;
+  padding: 30px; /* Increased padding for a more spacious feel */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* White color */
+}
+
+/* Input field styles */
+.input-field {
+  width: calc(100% - 30px); /* Adjust width to accommodate padding */
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ff4136; /* Red border */
+  border-radius: 5px;
+  outline: none; /* Remove default input outline */
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+.input-field:focus {
+  border-color: #ff725c; /* Lighter shade of red when input is focused */
+}
+
+/* Password container styles */
+.password-container {
+  position: relative;
+}
+
+/* Password input styles */
+.password-input {
+  padding-right: 12px; /* Adjust the input padding to accommodate the toggle button */
+}
+
+/* Toggle password button styles */
+.toggle-password {
+  position: absolute;
+  top: 36%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666; /* Dark gray color for the eye icon */
+}
+
+/* Login button styles */
+.login-button {
+  width: 100%;
+  padding: 13px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff4136; /* Red color */
+  color: #ffffff; /* White color */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #cc372b; /* Darker shade of red on hover */
+}
+
+.divider{
+  display: flex;
+}
+
+.pictureDisplay{
+  background-image: url(assets/react.svg);
+}

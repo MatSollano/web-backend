@@ -1,0 +1,66 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  background: linear-gradient(to bottom right, #ffeb3b, #f44336); /* Gradient background */
+}
+
+.container h1 {
+  color: #fff; /* White heading */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #fff; /* White label */
+  margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+  background-color: #fff; /* White background on focus */
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff; /* White button background */
+  color: #f44336; /* Red text */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #f44336; /* Red background on hover */
+  color: #fff; /* White text on hover */
+}
